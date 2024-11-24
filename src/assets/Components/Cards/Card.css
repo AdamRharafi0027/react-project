@@ -1,0 +1,21 @@
+#products .cards {
+    gap: 60px;
+}
+#products .cards .card  {
+    cursor: pointer;
+    transition: all .3s;
+    height: 320px;
+}
+#products .cards .card:hover {
+    transform: translateY(-15px);
+}
+#products .cards .card img {
+    width: 200px;
+    height: 200px;
+}
+#products .cards .card .card-body p {
+    font-size: 0.8rem;
+}
+#products .cards .card .card-body a {
+    background: var(--primary-color);
+}

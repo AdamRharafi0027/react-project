@@ -1,0 +1,8 @@
+#hero .hero-image img {
+    width: 450px;
+    margin-top: -20px;
+}
+#hero .hero-content h1 {
+    font-size: 6rem;
+    margin-top: 20px;
+}

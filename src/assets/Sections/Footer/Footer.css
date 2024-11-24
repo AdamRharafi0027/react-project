@@ -1,0 +1,11 @@
+#footer {
+    background: var(--primary-color);
+    margin-top: 100px;
+    padding-block: 100px;
+}
+#footer ul {
+    background: none !important;
+}
+#footer ul li {
+    cursor: pointer;
+}

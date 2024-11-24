@@ -1,0 +1,19 @@
+#mostPop h1::after {
+    content: '';
+    width: 400px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    margin-left: 25px;
+    border-radius: 8px;
+}
+#mostPop .sw img {
+    width: 200px;
+}
+#mostPop {
+    padding-bottom: 20px;
+}
+
+
+  

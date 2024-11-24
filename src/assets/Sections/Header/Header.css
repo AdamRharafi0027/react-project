@@ -1,0 +1,36 @@
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+body {
+    width: 100%;
+}
+/* GLOBALE STYLE */
+button,i {
+    cursor: pointer;
+}
+button,input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+/* START */
+header {
+    padding: 8px 100px ;
+}
+header nav ul li a {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+header .logo {
+    width: 70px;
+    height: 70px;
+}
+header .nav-items i {
+    color: #fff;
+}
+.svg {
+    right: 0;
+}

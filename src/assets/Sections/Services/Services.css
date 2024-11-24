@@ -1,0 +1,30 @@
+#services {
+    margin-top: 150px;
+}
+#services .cards  {
+    gap: 70px;
+    margin-inline: 150px;
+}
+#services .cards .card {
+    width: 300px;
+    cursor: pointer;
+    transition: all .3s;
+}
+#services .cards .card:hover {
+    transform: translateY(-15px); 
+}
+#services .cards .card img {
+    width: 120px;
+    padding-top: 20px;
+    margin: auto ;
+}
+#services h1::after {
+    content: '';
+    width: 400px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    margin-left: 25px;
+    border-radius: 8px;
+}
