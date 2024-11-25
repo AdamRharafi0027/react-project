@@ -1,5 +1,6 @@
 import "./Hero.css";
 import HeroImages from '../../image/hero.png'
+// hero.png
 import {Button} from "../../Components/index";
 
 const Hero = () => {
