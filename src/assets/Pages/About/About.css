@@ -1,0 +1,16 @@
+#about  {
+    margin-block: 50px;
+}
+#about h1 {
+    font-size: 4rem;
+}
+#about  > p {
+    width: 500px;
+    font-size: 0.8rem;
+}
+#about .about-content {
+    gap: 70px;
+}
+#about .about-content  p {
+    width: 500px;
+}

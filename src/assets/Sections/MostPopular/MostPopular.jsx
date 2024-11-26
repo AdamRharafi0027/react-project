@@ -18,7 +18,7 @@ const MostPopular = () => {
   
     return (
       <>
-      <section id="mostPop">
+      <section id="mostPop" className="mt-5">
         <h1 className="text-uppercase mt-5 position-relative">most popular</h1>
         <div className="sw mt-5 align-items-center">
           <div className="sw">
