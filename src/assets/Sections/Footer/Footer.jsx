@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
@@ -15,14 +16,15 @@ const Footer = () => {
           <li className={listClass}><i className="bi bi-instagram fs-3"></i>@thejacketstore</li>
           <li className={listClass}><i className="bi bi-facebook fs-3"></i>facebook.com/thajacketstor</li>
         </ul>
-        <ul className="d-flex flex-column">
+        {/* <ul className="d-flex flex-column">
           <h1 className="text-light">links</h1>
-          <li className={listClass}>home</li>
-          <li className={listClass}>about us</li>
-          <li className={listClass}>products</li>
-          <li className={listClass}>services</li>
-          <li className={listClass}>contact us</li>
-        </ul>
+          
+          <li><Link className={listClass} to='/' aria-current='page'>home</Link></li>
+          <li><Link className={listClass} to='/About' aria-current='page'>about us</Link></li>
+          <li><Link className={listClass} to='/Products' aria-current='page'>products</Link></li>
+          <li><Link className={listClass} to='/Services' aria-current='page'>services</Link></li>
+          <li><Link className={listClass} to='/Contact' aria-current='page'>contact us</Link></li>
+        </ul> */}
       </section>
     </>
   );

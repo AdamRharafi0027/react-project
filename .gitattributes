@@ -1,1 +1,20 @@
+# Handle binary files
 *.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+
+# Normalize text files
+* text=auto
+
+# Large files for Git LFS
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+
+# Exclude minified files from diffs
+*.min.js -diff
+*.min.css -diff
+*.map -diff

@@ -1,6 +1,7 @@
 import './Contact.css'
 import {Button} from '../../Components/index'
 import ContactImg from '../../image/contact.png'
+import { UpButton } from '../../Components/index'
 
 const Contact = () => {
   return (
@@ -18,6 +19,7 @@ const Contact = () => {
           </form>
           <img src={ContactImg} alt="" />
         </div>
+        <UpButton />
       </section>
     </>
   )

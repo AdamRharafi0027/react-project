@@ -6,3 +6,48 @@
     font-size: 6rem;
     margin-top: 20px;
 }
+/* responsive */
+@media screen and (max-width: 868px) {
+    #hero {
+        align-items: center;
+    }
+    #hero .hero-image img {
+        margin-top: 0;
+        width: 350px;
+        margin-right: -50px;
+    }
+    #hero .hero-content h1 {
+        font-size: 3rem;
+        width: 300px;
+        margin-right: -50px;
+        margin-top: -50px;
+    }
+}
+/* MOBILE */
+@media screen and (max-width: 480px) and (min-width: 200px) {
+    #hero {
+        margin-bottom: 100px;
+        text-align: center !important;
+        width: 100%;
+    }
+    
+    #hero .hero-image img  {
+        display: none;
+    }
+    #hero .hero-content h1 {
+        text-align: center !important;
+        width: 100%;
+        margin:0 auto;
+        margin-block: 10px;
+        font-size: 2rem;
+    }
+    #hero .hero-content .button {
+        margin-left: 5px;
+    }
+    .svg {
+        display: none;
+    }
+    #hero .button {
+        margin-left: -50px;
+    }
+}

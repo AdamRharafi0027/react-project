@@ -14,3 +14,35 @@
 #about .about-content  p {
     width: 500px;
 }
+/* responsive */
+@media screen and (max-width: 868px) {
+    #about .about-content {
+        display: flex;
+    }
+    #about .about-content p {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 200px) {
+    #about  {
+        text-align: center;
+    }
+    #about h1 {
+        font-size: 3rem;
+        width: 500px;
+    }
+    #about h3 {
+        font-size: 0.9rem !important;
+    }
+    #about > p {
+        font-size: 0.8rem;
+        width: 300px;
+    }
+    #about .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+    #about .about-content p {
+        width: 300px;
+    }
+}

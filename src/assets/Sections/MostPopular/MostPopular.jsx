@@ -21,17 +21,30 @@ const MostPopular = () => {
       <section id="mostPop" className="mt-5">
         <h1 className="text-uppercase mt-5 position-relative">most popular</h1>
         <div className="sw mt-5 align-items-center">
-          <div className="sw">
+
       <Swiper
-        // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
+        spaceBetween={20}
         slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
-        // onSwiper={(swiper) => console.log(swiper)}
-        // onSlideChange={() => console.log('slide change')}
+        breakpoints={{
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            width: 480
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
+        
+        pagination={{ clickable: true }} 
+        navigation 
+        // loop={true} 
         className="d-flex justify-content-center  align-items-center"
         style={{marginInline:'50px'}}
       >
@@ -51,7 +64,6 @@ const MostPopular = () => {
                 <img src={jacket1} alt="jacket" />
               </SwiperSlide>
       </Swiper>
-      </div>
       </div>
       </section>
       </>

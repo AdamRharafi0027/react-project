@@ -16,6 +16,25 @@
     padding-top: 100px;
 
 }
+/* responsive */
+@media screen and (max-width: 868px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none; 
+    }
+    #mostPop h1::after {
+        width: 200px;
+    }
+.swiper-slide {
+    font-size: 0.9rem;
+  }
 
+  }
+/* MOBILE */
+@media screen and (max-width: 480px) and (min-width: 200px) {
+  #mostPop {
+    display: none;
+  }
+}
 
   

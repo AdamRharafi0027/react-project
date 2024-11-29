@@ -18,3 +18,16 @@
 #products h1::before {
     margin-left: -330px;
 }
+/* responsive */
+@media screen and (max-width: 868px) {
+    #products h1::after,
+    #products h1::before {
+        width: 200px;
+    }
+    #products h1::after {
+        margin-left: 45px;
+    }
+    #products h1::before {
+        margin-left: -250px;
+    }
+}

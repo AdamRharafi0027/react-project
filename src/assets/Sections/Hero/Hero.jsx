@@ -13,7 +13,7 @@ const Hero = () => {
             Discover our premium collection of coats and jackets designed to
             keep you cozy and fashionable all season long
           </p>
-          <Button className='text-uppercase'>
+          <Button className='text-uppercase button'>
             buy now
           </Button>
         </div>

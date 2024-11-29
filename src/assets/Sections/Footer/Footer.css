@@ -9,3 +9,12 @@
 #footer ul li {
     cursor: pointer;
 }
+@media screen and (max-width: 480px) and (min-width: 200px) {
+    #footer {
+        padding-left: 0px;
+        flex-direction: column;
+    }
+    #footer ul li {
+        font-size: 0.9rem;
+    }
+}

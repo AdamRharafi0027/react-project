@@ -19,9 +19,9 @@ const AnimatedRoutes = () => {
           path="/"
           element={
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.2 }}
             >
               <Home />
@@ -32,9 +32,9 @@ const AnimatedRoutes = () => {
           path="/About"
           element={
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.2 }}
             >
               <About />
@@ -45,9 +45,9 @@ const AnimatedRoutes = () => {
           path="/Products"
           element={
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.2 }}
             >
               <ProductsPage />
@@ -58,9 +58,9 @@ const AnimatedRoutes = () => {
           path="/Services"
           element={
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.2 }}
             >
               <ServicesPage />
@@ -71,9 +71,9 @@ const AnimatedRoutes = () => {
           path="/Contact"
           element={
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.2 }}
             >
               <Contact />

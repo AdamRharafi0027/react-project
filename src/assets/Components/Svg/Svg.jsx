@@ -1,12 +1,12 @@
 import "./Svg.css";
 
-const svg = () => {
+const svg = props => {
   return (
     <>
       <svg
         width="719"
         height="488"
-        className="svg position-absolute z-n1"
+        className={props.className}
         viewBox="0 0 719 488"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

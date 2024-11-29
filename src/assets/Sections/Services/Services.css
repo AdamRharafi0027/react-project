@@ -28,3 +28,15 @@
     margin-left: 25px;
     border-radius: 8px;
 }
+/* responsive */
+@media screen and (max-width: 868px) {
+    #services h1::after {
+        width: 200px;
+    }
+    #services .cards .card {
+        width: 250px !important;
+    }
+    #services .cards {
+        margin: 0 auto;
+    }
+}

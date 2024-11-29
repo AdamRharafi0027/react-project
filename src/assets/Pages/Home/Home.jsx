@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Hero, Products, MostPopular, Services } from "../../Sections/index";
+import { UpButton } from "../../Components";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Products />
       <MostPopular />
       <Services />
+      <UpButton />
     </>
   );
 };

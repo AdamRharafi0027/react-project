@@ -1,7 +1,7 @@
 import "./ProductsPage.css";
 import {Card} from '../../Components/index'
 import ProductData from '../../Sections/Data/ProductsData'
-
+import { UpButton } from "../../Components/index";
 
 const ProductsPage = () => {
 
@@ -20,6 +20,7 @@ const ProductsPage = () => {
           {cards}
           {cards}
         </div>
+        <UpButton />
       </section>
     </>
   );

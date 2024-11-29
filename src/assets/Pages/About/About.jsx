@@ -1,5 +1,6 @@
 import "./About.css";
-
+import { UpButton } from '../../Components/index'
+<UpButton />
 const About = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const About = () => {
             </p>
           </div>
         </div>
+        <UpButton />
       </section>
     </>
   );
