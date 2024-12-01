@@ -1,1 +1,11 @@
-*.png binary
+
+
+# Normalize text files
+* text=auto
+
+
+# Exclude minified files from diffs
+*.min.js -diff
+*.min.css -diff
+*.map -diff
+
